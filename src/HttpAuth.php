@@ -62,7 +62,7 @@ class HttpAuth extends Module
      */
     public function passHttpAuthentication()
     {
-        \Codeception\Util\Debug::debug(sprintf(
+        $this->debug(sprintf(
             'Authenticating with username %s, password %s.',
             $this->config['username'],
             str_repeat(self::HTTPAUTH_PASSWORD_CHAR, strlen($this->config['password']))
