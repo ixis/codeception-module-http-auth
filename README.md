@@ -1,7 +1,9 @@
-Http Auth - a Codeception module for passing HTTP authentication
+Http Auth - Codeception module
 ===
 
-A Codeception module for automatically passing HTTP authentication based on configuration.
+## A Codeception module for passing HTTP authentication
+
+This simple Codeception module allows PhpBrowser to automatically pass HTTP authentication based on configuration.
 
 ## Install with Composer
 
