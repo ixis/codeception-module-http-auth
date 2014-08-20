@@ -1,6 +1,6 @@
 {
   "name": "pfaocle/codeception-module-http-auth",
-  "description": ".",
+  "description": "A Codeception module for passing HTTP authentication.",
   "authors": [
     {
       "name": "Paul Byrne",
