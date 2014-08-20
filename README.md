@@ -23,11 +23,9 @@ This simple Codeception module allows PhpBrowser to automatically pass HTTP auth
 
 ## Example suite configuration
 
-    class_name: AcceptanceTester
     modules:
         enabled:
             - PhpBrowser
-            - AcceptanceHelper
             - HttpAuth
         config:
             PhpBrowser:
