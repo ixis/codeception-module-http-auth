@@ -1,0 +1,15 @@
+{
+  "name": "pfaocle/codeception-module-http-auth",
+  "description": ".",
+  "authors": [
+    {
+      "name": "Paul Byrne",
+      "email": "code@pfaocle.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codeception\\Module\\": "src"
+    }
+  }
+}
