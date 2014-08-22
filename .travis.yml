@@ -1,0 +1,19 @@
+#
+# Travis CI configuration for testing codeception-module-http-auth
+#
+
+language: php
+php:
+  - 5.4
+
+before_script:
+  # Copy testing.composer.json to a new directory and run composer install.
+  - mkdir http-auth-testing
+  - cp ./testing.composer.josn ./http-auth-testing/composer.json
+  - composer install -d http-auth-testing
+  - cd http-auth-testing
+
+# Run tests in codeception-module-http-auth project with Codeception install set up above.
+script:
+  - vendor/bin/codecept run acceptance
+  - vendor/bin/codecept run acceptance-misconfigured
