@@ -1,8 +1,10 @@
 #
 # Codeception acceptance test suite configuration for codeception-module-http-auth
 #
+# This suite contains a badly configured Http Auth module (bad credentials), with which we test 403 responses.
+#
 
-class_name: WebGuy
+class_name: MisconfiguredWebGuy
 modules:
     enabled: [PhpBrowser, HttpAuth]
     config:
@@ -10,4 +12,4 @@ modules:
             url: 'http://d7.drupal.dev:8080'
         HttpAuth:
             username: testuser
-            password: testpassword!
+            password: thisisthewrongpassword?
