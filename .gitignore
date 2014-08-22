@@ -1,0 +1,6 @@
+#
+# .gitignore for codeception-module-http-auth
+#
+
+# Ignore Codeception-built Guy classes.
+tests/*/*Guy.php
