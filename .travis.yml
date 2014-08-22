@@ -9,7 +9,7 @@ php:
 before_script:
   # Copy testing.composer.json to a new directory and run composer install.
   - mkdir http-auth-testing
-  - cp ./testing.composer.josn ./http-auth-testing/composer.json
+  - cp ./testing.composer.json ./http-auth-testing/composer.json
   - composer install -d http-auth-testing
   - cd http-auth-testing
 
