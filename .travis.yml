@@ -15,5 +15,5 @@ before_script:
 
 # Run tests in codeception-module-http-auth project with Codeception install set up above.
 script:
-  - vendor/bin/codecept run acceptance
-  - vendor/bin/codecept run acceptance-misconfigured
+  - vendor/bin/codecept run -c vendor/pfaocle/codeception-module-http-auth/codeception.yml acceptance
+  - vendor/bin/codecept run -c vendor/pfaocle/codeception-module-http-auth/codeception.yml acceptance-misconfigured
