@@ -11,7 +11,8 @@ before_script:
   - mkdir http-auth-testing
   - cp ./testing.composer.json ./http-auth-testing/composer.json
   - composer install -d http-auth-testing
-  - cd http-auth-testing/vendor/pfaocle/codeception-module-http-auth && ../../bin/codecept build && cd -
+  - cd http-auth-testing
+  - vendor/bin/codecept build -c vendor/pfaocle/codeception-module-http-auth/codeception.yml
 
 # Run tests in codeception-module-http-auth project with Codeception install set up above.
 script:
