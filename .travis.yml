@@ -9,7 +9,7 @@ php:
 before_script:
   # Copy testing.composer.json to a new directory and run composer install.
   - mkdir http-auth-testing
-  - cp ./testing.composer.json ./http-auth-testing/composer.json
+  - cp ./tests/testing.composer.json ./http-auth-testing/composer.json
   - composer install -d http-auth-testing
   - cd http-auth-testing
   - vendor/bin/codecept build -c vendor/pfaocle/codeception-module-http-auth/codeception.yml
