@@ -11,3 +11,17 @@ modules:
         HttpAuth:
             username: testuser
             password: testpassword!
+
+env:
+    # Include a 'default' environment with the configuration above. This allows us to run tests with correctly
+    # configured HttpAuth module in isolation.
+    default:
+
+    # Include a 'misconfigured' environment, with a bad password set. Tests against this environment should ensure that
+    # HTTP authentication denies access correctly.
+    misconfigured:
+        modules:
+            config:
+                HttpAuth:
+                    username: testuser
+                    password: itsgoodbutitsnotheright1
