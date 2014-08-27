@@ -3,7 +3,7 @@
 namespace Codeception\Module;
 
 /**
- * Class WebHelper - ddefine custom functions for WebGuy.
+ * Class WebHelper - define custom functions for WebGuy.
  */
 class WebHelper extends \Codeception\Module
 {
