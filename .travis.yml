@@ -5,6 +5,7 @@
 language: php
 php:
   - 5.4
+  - 5.5
 
 before_script:
   # Copy testing.composer.json to a new directory and run composer install.
