@@ -1,12 +1,16 @@
 {
   "name": "pfaocle/codeception-module-http-auth",
   "description": "A Codeception module for passing HTTP authentication.",
+  "license": "MIT",
   "authors": [
     {
       "name": "Paul Byrne",
       "email": "code@pfaocle.co.uk"
     }
   ],
+  "require": {
+    "php": ">=5.4.0"
+  },
   "autoload": {
     "psr-4": {
       "Codeception\\Module\\": "src"
