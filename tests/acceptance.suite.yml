@@ -7,7 +7,7 @@ modules:
     enabled: [PhpBrowser, HttpAuth]
     config:
         PhpBrowser:
-            url: 'http://d7.drupal.dev:8080'
+            url: 'http://test.pfaocle.co.uk/httpauth/'
         HttpAuth:
             username: testuser
             password: testpassword!
