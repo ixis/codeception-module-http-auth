@@ -7,15 +7,10 @@ Http Auth - Codeception module
 
 This simple Codeception module allows PhpBrowser to automatically pass HTTP authentication based on configuration.
 
-## Install with Composer
+
+## Install with Composer and Packagist
 
     {
-        "repositories": [
-            {
-                "type": "vcs",
-                "url": "https://github.com/pfaocle/codeception-module-http-auth.git"
-            }
-        ],
         "require": {
             "codeception/codeception": "1.8.*",
             "pfaocle/codeception-module-http-auth": "dev-master"
