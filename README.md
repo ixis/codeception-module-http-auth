@@ -26,7 +26,20 @@ This simple Codeception module allows PhpBrowser to automatically pass HTTP auth
             - HttpAuth
         config:
             PhpBrowser:
-                url: 'http://localhost/myapp/'
+                url: 'http://example.com/protected/'
             HttpAuth:
                 username: user
                 password: password
+
+
+## Codeception 2
+
+This module isn't useful for Codeception 2.x, as HTTP authentication can be configured in PhpBrowser directly:
+
+    modules:
+        enabled:
+            - PhpBrowser
+        config:
+            PhpBrowser:
+                url: 'http://example.com/protected/'
+                auth: ['testuser', 'testpassword']
