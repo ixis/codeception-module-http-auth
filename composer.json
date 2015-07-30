@@ -1,5 +1,5 @@
 {
-  "name": "pfaocle/codeception-module-http-auth",
+  "name": "ixis/codeception-module-http-auth",
   "description": "A Codeception module for passing HTTP authentication.",
   "license": "MIT",
   "authors": [
