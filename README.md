@@ -3,7 +3,7 @@ Http Auth - Codeception module
 
 ## A Codeception module for passing HTTP authentication
 
-[![Build Status](https://travis-ci.org/pfaocle/codeception-module-http-auth.svg?branch=master)](https://travis-ci.org/pfaocle/codeception-module-http-auth)
+[![Build Status](https://travis-ci.org/ixis/codeception-module-http-auth.svg?branch=master)](https://travis-ci.org/ixis/codeception-module-http-auth)
 
 This simple Codeception module allows PhpBrowser to automatically pass HTTP authentication based on configuration.
 
