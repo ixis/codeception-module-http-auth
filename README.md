@@ -13,7 +13,7 @@ This simple Codeception module allows PhpBrowser to automatically pass HTTP auth
     {
         "require": {
             "codeception/codeception": "1.8.*",
-            "pfaocle/codeception-module-http-auth": "dev-master"
+            "ixis/codeception-module-http-auth": "dev-master"
         }
     }
 
